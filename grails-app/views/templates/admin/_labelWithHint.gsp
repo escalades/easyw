@@ -1,0 +1,1 @@
+<div class="admin-text">${label}<g:if test="${hintTitle}"><a class="admin-tooltip" data-trigger="hover" data-original-title="${hintTitle}" data-content="${hintContent}"></a></g:if></div>

@@ -1,0 +1,843 @@
+textarea {
+    resize: none;
+}
+
+.b-new-error{
+	width: 570px;
+	height: auto;
+	padding: 15px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	margin: 10px 0px 10px;
+	background: #ffdbdb;
+}
+.b-new-error p{
+	width: 100%;
+	height: auto;
+	color: #2c3e50;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+/* Teamplate */
+
+
+.admin-left-back{
+	width: 50%;height: 100%;
+	position: fixed;background: #ecf0f1;
+	z-index: -999;top: 0px;left: 0px;
+}
+.admin-right-back{
+	width: 50%;height: 100%;position: fixed;
+	background: #ffffff;z-index: -999;
+	top: 0px;right: 0px;
+}
+.admin-middle-back{
+	width: 1000px;height: 100%;position: fixed;
+	background: #ffffff;z-index: -998;
+}
+.admin-sidebar-back{
+	width: 300px;height: 100%;position: fixed;
+	background: #ecf0f1;z-index: -1;
+}
+.admin-wrapper{
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto -70px;
+}
+.admin-push{
+	height: 70px;
+}
+
+
+/* header */
+
+
+.admin-header{
+	min-width: 1000px;
+	width: 100%;
+	height: 80px;
+	background: #2c3e50;
+	margin: 0px;
+	padding: 0px;
+}
+.admin-header-content{
+	width: 1000px;
+	height: 80px;
+	margin: 0px auto;
+}
+img.admin-house-logo{
+	width: 151px;
+	height: 47px;
+	margin: 18px 0px 0px 5px;
+}
+ul.admin-menu{
+	width: 780px;
+	height: 80px;
+	float: right;
+}
+ul.admin-menu li{
+	width: auto;
+	height: 80px;
+	float: right;
+	list-style: none;
+}
+ul.admin-menu li a{
+	float: left;
+	min-width: 90px;
+	width: auto;
+	padding: 0px 15px 0px;
+	margin: 0px;
+	height: 80px;
+}
+ul.admin-menu li a:hover{
+	background: #1abc9c;
+}
+ul.admin-menu li a>span{
+	width: auto;
+	min-width: 90px;
+	height: 20px;
+	margin: 0px auto 0px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+	color: #ffffff;
+	line-height: 20px;
+	display: block;
+}
+ul.admin-menu li a>div{
+	margin: 15px auto 3px;
+	width: 32px;
+	height: 32px;
+}
+ul.admin-menu li a>div.menu-icon-1{
+	background: url('menu-icon-1.png');
+}
+ul.admin-menu li a>div.menu-icon-2{
+	background: url('menu-icon-2.png');
+}
+ul.admin-menu li a>div.menu-icon-3{
+	background: url('menu-icon-3.png');
+}
+ul.admin-menu li a>div.menu-icon-4{
+	background: url('menu-icon-4.png');
+}
+ul.admin-menu li a>div.menu-icon-5{
+	background: url('menu-icon-5.png');
+}
+ul.admin-menu li a>div.menu-icon-exit{
+	background: url('menu-icon-exit.png');
+}
+
+
+/* footer */
+
+
+.admin-footer{
+	height: 40px;
+	width: 1000px;
+	margin: 0px auto;
+	padding-top: 30px;
+}
+.admin-footer p{
+	text-align: left;
+	font-family: Arial;
+	font-size: 13px;
+	color: #2c3e50;
+	line-height: 20px;
+	margin: 15px 0px 5px;
+}
+.admin-footer p a{
+	font-family: Arial;
+	font-size: 13px;
+	color: #2c3e50;
+	line-height: 20px;
+	text-decoration: underline;
+}
+
+
+/* sitemap */
+
+
+.admin-container{
+	width: 1000px;
+	min-height: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.admin-sidebar{
+	float: left;
+	width: 300px;
+	min-height: 400px;
+	height: auto;
+	background: #ecf0f1;
+}
+.admin-sidebar-content{
+	float: left;
+	width: 300px;
+	padding: 30px 0px 0px 0px;
+	height: auto;
+	overflow: hidden;
+}
+h1{
+	font-size: 27px;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	line-height: 1;
+	color: #2c3e50;
+}
+
+
+/* content */
+
+.admin-content-bg{
+	width: 700px;
+	float: right;
+	min-height: 400px;
+	height: auto;
+	overflow: hidden;
+	background: #ffffff;
+}
+.admin-content{
+	width: 670px;
+	float: right;
+	min-height: 400px;
+	height: auto;
+	overflow: hidden;
+	margin: 30px 5px 0px 25px;
+}
+
+.admin-content .header{
+	width: 670px;
+	float: left;
+	min-height: 30px;
+	height: auto;
+	overflow: hidden;
+}
+.admin-content .header h1{
+	font-size: 27px;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	line-height: 30px;
+	color: #2c3e50;
+	width: 100%;
+	padding-right: 40px;
+}
+.admin-content .header a{
+	margin: 6px 0px 0px 0px;
+	font-size: 12px;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	line-height: 20px;
+	float: right;
+	color: #2c3e50;
+	padding-right: 23px;
+	height: 20px;
+	width: auto;
+	background-image: url('admin-icon-right.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    -webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+}
+.admin-content .header a:hover{
+	background-position: right -20px;
+	color: #1abc9c;
+}
+.admin-content .line-menu{
+	width: 670px;
+	height: auto;
+	min-height: 18px;
+	float: left;
+	margin: 25px 0px 30px;
+}
+.admin-content .line-menu a{
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	height: 18px;
+	line-height: 18px;
+	padding-left: 24px;
+	width: auto;
+	float: left;
+	margin-right: 14px;
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+}
+.admin-content .line-menu a.icon-list{
+	background: url('admin-icon-list.png') 0px 0px no-repeat;
+}
+.admin-content .line-menu a.icon-edit{
+	background: url('admin-icon-edit.png') 0px 0px no-repeat;
+}
+.admin-content .line-menu a.icon-seo{
+	background: url('admin-icon-seo.png') 0px 0px no-repeat;
+}
+.admin-content .line-menu a.icon-view{
+	background: url('admin-icon-view.png') 0px 0px no-repeat;
+}
+.admin-content .line-menu a.icon-add{
+	background: url('admin-icon-add.png') 0px 0px no-repeat;
+}
+.admin-content .line-menu a.icon-cart{
+	background: url('admin-icon-cart.png') 0px 0px no-repeat;
+}
+.admin-content .line-menu a:hover,
+.admin-content .line-menu a.active{
+	background-position: 0px -18px;
+	color: #1abc9c;
+}
+.admin-content .line-menu a.disable{
+	background-position: 0px -36px;
+	color: #bcc4c8;
+	cursor: text;
+	cursor: not-allowed;
+}
+.admin-content .admin-text-view{
+	width: 650px;
+	float: left;
+	min-height: 20px;
+	height: auto;
+	padding-right: 20px;
+	margin: 20px 0px 10px 0px;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+	float: left;
+}
+.admin-content .admin-text-view a{
+	margin: 0px 5px;
+	color: #2c3e50;
+}
+.admin-content .admin-text-view a.active,
+.admin-content .admin-text-view a:hover,
+.admin-content .admin-text-view a:active{
+	margin: 0px 5px;
+	color: #1abc9c;
+	text-decoration: underline;
+}
+.admin-content .admin-text{
+	width: 650px;
+	float: left;
+	min-height: 20px;
+	height: auto;
+	padding-right: 20px;
+	margin: 15px 0px 15px 0px;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+	float: left;
+	text-decoration: underline;
+}
+.admin-content .admin-text-thin{
+	width: 650px;
+	float: left;
+	min-height: 20px;
+	height: auto;
+	padding-right: 20px;
+	margin: 15px 0px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+	float: left;
+	text-decoration: none;
+}
+.admin-content .admin-text-small{
+	width: 180px;
+	float: left;
+	min-height: 20px;
+	height: auto;
+	padding-right: 20px;
+	margin: 15px 0px;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+	float: left;
+	text-decoration: underline;
+}
+.admin-content .admin-text p{
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+	float: left;
+	text-decoration: none;
+	margin: 3px 0px;
+}
+.admin-content .admin-text p a{
+	text-decoration: underline;
+}
+a.admin-tooltip{
+	background: url('admin-icon-help.png') 0px 0px no-repeat;
+	height: 18px;
+	width: 18px;
+	margin: 0px 0px -4px 10px;
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+	cursor: pointer;
+	display: inline-block;
+}
+a.admin-tooltip:hover{
+	background-position: 0px -18px;
+}
+.admin-input-images{
+	width: 660px;
+	margin: 10px 0px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.admin-input-images img{
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin: 10px 10px 10px 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* list */
+
+.admin-content ul.list{
+	width: 670px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	margin: 5px 0px 35px 0px;
+}
+.admin-content ul.list li{
+	width: 670px;
+	min-height: 20px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+	border-bottom: 1px solid #ecf0f1;
+}
+.admin-content ul.list li:hover {
+	background: #ecf0f1;
+}
+.admin-content ul.list li:hover div.links{
+	opacity: 1;
+}
+
+.admin-content ul.list li div.links{
+	width: 85px;
+	height: 20px;
+	float: right;
+	margin: 0px 0px 0px 15px;
+	padding: 0px 0px 0px 5px;
+	opacity: 0;
+}
+.admin-content ul.list li div.links a{
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin: 1px 4px;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+}
+.admin-content ul.list li div.links a:hover{
+	text-decoration: underline;
+}
+.admin-content ul.list li div.links a.icon-position,
+.admin-content ul.list li div.links button.icon-delete,
+.admin-content ul.list li div.links a.icon-delete,
+.admin-content ul.list li div.links a.icon-edit{
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin: 1px 4px;
+	border: 0px;
+	outline: none;
+}
+.admin-content ul.list li div.links a.icon-position{
+	background: url('admin-icon-position.png') 0px 0px no-repeat;
+}
+.admin-content ul.list li div.links button.icon-delete,
+.admin-content ul.list li div.links a.icon-delete{
+	background: url('admin-icon-delete.png') 0px 0px no-repeat;
+}
+.admin-content ul.list li div.links a.icon-edit{
+	background: url('admin-icon-edit.png') 0px 0px no-repeat;
+}
+
+.admin-content ul.list li div.links a.icon-position:hover,
+.admin-content ul.list li div.links button.icon-delete:hover,
+.admin-content ul.list li div.links a.icon-delete:hover,
+.admin-content ul.list li div.links a.icon-edit:hover{
+	background-position: 0px -18px !important;
+}
+
+.list div.info{
+	float: left;
+	min-height: 20px;
+	height: auto;
+	padding: 0px 3px;
+	margin: 0px 0px;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	overflow: hidden;
+}
+.list div.first{
+	width: 200px;
+	text-align: left;
+	font-size: 13px;
+}
+.list div.second,
+.list div.third,
+.list div.fourth{
+	width: 120px;
+}
+.list div.grey{
+	color: #95a5a6;
+}
+.list[name="messages"] li.new div.info{
+	font-weight: bold;
+}
+.list[name="messages"] div.first{
+	width: 170px;
+	text-align: left;
+	font-size: 11px;
+}
+.list[name="messages"] div.info{
+	text-align: left;
+}
+.list[name="messages"] div.second{
+	width: 160px;
+}
+.list[name="messages"] div.third{
+	width: 160px;
+}
+.list[name="messages"] div.fourth{
+	width: 70px;
+}
+
+table.table[name="message"] tr td:first-child{
+	color: #95a5a6 !important;
+}
+table.table[name="message"] tr td{
+	border-top: 0px;
+}
+table.table[name="message"]{
+	color: #2c3e50;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+/* news */
+
+.admin-content ul.news{
+	width: 670px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	margin: 5px 0px 35px 0px;
+}
+.admin-content ul.news li{
+	width: 670px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 20px;
+	border-bottom: 1px solid #ecf0f1;
+}
+.admin-content ul.news li:hover{
+	background: #ecf0f1;
+}
+.admin-content ul.news li img{
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	float: left;
+}
+.admin-content ul.news li div.text{
+	float: left;
+	width: 300px;
+	margin: 10px 20px;
+	height: auto;
+	min-height: 100px;
+}
+.admin-content ul.news li div.text h3{
+	color: #2c3e50;
+	font-size: 16px;
+	line-height: 20px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.admin-content ul.news li div.text p{
+	color: #7f8c8d;
+	font-size: 12px;
+	width: 100%;
+}
+.admin-content ul.news li div.block{
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin: 0px;
+}
+.admin-content ul.news li div.block div.news-checkbox{
+	float: left;
+	width: 200px;
+	height: 30px;
+	margin: 5px 0px;
+}
+.admin-content ul.news li div.block div.links{
+	width: 200px;
+	height: 20px;
+	float: left;
+	margin: 5px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	opacity: 1;
+}
+.admin-content ul.news li div.block div.date{
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin: 15px 0px 0px;
+	font-size: 12px;
+}
+.admin-content ul.news li div.block div.date span{
+	color: #7f8c8d;
+}
+.admin-content ul.news li div.block div.links a.icon-position,
+.admin-content ul.news li div.block div.links button.icon-delete,
+.admin-content ul.news li div.block div.links a.icon-delete,
+.admin-content ul.news li div.block div.links a.icon-edit,
+.admin-content ul.news li div.block div.links a.icon-view{
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin: 1px 20px 1px 0px;
+	border: 0px;
+	outline: none;
+}
+.admin-content ul.news li div.block div.links a.icon-position{
+	background: url('admin-icon-position.png') 0px 0px no-repeat;
+}
+.admin-content ul.news li div.block div.links button.icon-delete,
+.admin-content ul.news li div.block div.links a.icon-delete{
+	background: url('admin-icon-delete.png') 0px 0px no-repeat;
+}
+.admin-content ul.news li div.block div.links a.icon-edit{
+	background: url('admin-icon-edit.png') 0px 0px no-repeat;
+}
+.admin-content ul.news li div.block div.links a.icon-view{
+	background: url('admin-icon-view.png') 0px 0px no-repeat;
+}
+
+.admin-content ul.news li div.block div.links a.icon-position:hover,
+.admin-content ul.news li div.block div.links button.icon-delete:hover,
+.admin-content ul.news li div.block div.links a.icon-delete:hover,
+.admin-content ul.news li div.block div.links a.icon-edit:hover,
+.admin-content ul.news li div.block div.links a.icon-view:hover{
+	background-position: 0px -18px !important;
+}
+
+
+.table[name="goods"] tr:first-child td {
+	background: #f3f3f3;
+}
+.table[name="product"] tr td{
+	padding: 0px;
+}
+
+
+/* video */
+
+.admin-video{
+	width: 650px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #ddd;
+	margin: 20px 0px 0px 0px;
+	padding: 10px 0px 5px;
+}
+.admin-video[name="other"]:hover{
+	background: #ecf0f1;
+}
+.admin-video .line{
+	width: 620px;
+	height: auto;
+	float: left;
+}
+.admin-video .line .left{
+	width: 150px;
+	height: auto;
+	float: left;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+	color: #2c3e50;
+	line-height: 30px;
+	margin: 5px;
+}
+.admin-video .line .middle{
+	width: 420px;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+.admin-video .line .middle img{
+	float: left;
+	margin-right: 18px;
+}
+.admin-video .right{
+	width: 20px;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+.admin-video .right a.icon-position,
+.admin-video .right button.icon-delete,
+.admin-video .right a.icon-delete{
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin: 1px 20px 1px 0px;
+	border: 0px;
+	outline: none;
+}
+.admin-video .right a.icon-position{
+	background: url('admin-icon-position.png') 0px 0px no-repeat;
+}
+.admin-video .right button.icon-delete,
+.admin-video .right a.icon-delete{
+	background: url('admin-icon-delete.png') 0px 0px no-repeat;
+}
+.admin-video .right a.icon-position:hover,
+.admin-video .right button.icon-delete:hover,
+.admin-video .right a.icon-delete:hover{
+	background-position: 0px -18px !important;
+}
+
+
+
+
+/* photo */
+
+
+.admin-photo{
+	width: 650px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #ddd;
+	margin: 20px 0px 0px 0px;
+	padding: 10px 0px 5px;
+}
+.admin-photo[name="other"]:hover{
+	background: #ecf0f1;
+}
+.admin-photo .line{
+	width: 620px;
+	height: auto;
+	float: left;
+}
+.admin-photo .line .left{
+	width: 100px;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+.admin-photo .line .middle{
+	width: 490px;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+.admin-photo .line .left img{
+	float: left;
+}
+.admin-photo .right{
+	width: 20px;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+.admin-photo .right a.icon-position,
+.admin-photo .right button.icon-delete,
+.admin-photo .right a.icon-delete{
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin: 1px 20px 1px 0px;
+	border: 0px;
+	outline: none;
+}
+.admin-photo .right a.icon-position{
+	background: url('admin-icon-position.png') 0px 0px no-repeat;
+}
+.admin-photo .right button.icon-delete,
+.admin-photo .right a.icon-delete{
+	background: url('admin-icon-delete.png') 0px 0px no-repeat;
+}
+.admin-photo .right a.icon-position:hover,
+.admin-photo .right button.icon-delete:hover,
+.admin-photo .right a.icon-delete:hover{
+	background-position: 0px -18px !important;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>Sequence.js - The Responsive Slider with Advanced CSS3 Transitions</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- basic stylesheet -->
+        <link rel="stylesheet" href="royalslider.css">
+
+        <!-- skin stylesheet (change it if you use another) -->
+        <link rel="stylesheet" href="rs-minimal-white.css"> 
+
+        <!-- Plugin requires jQuery 1.7+  -->
+        <!-- If you already have jQuery on your page, you shouldn't include it second time. -->
+        <script src='jquery-1.8.3.min.js'></script>
+
+        <!-- Main slider JS script file --> 
+        <!-- Create it with slider online build tool for better performance. -->
+        <script src="jquery.royalslider.min.js"></script>
+
+        <script>
+          jQuery(document).ready(function($) {
+              $('#full-width-slider').royalSlider({
+                arrowsNav: true,
+                loop: false,
+                keyboardNavEnabled: true,
+                controlsInside: false,
+                imageScaleMode: 'fill',
+                arrowsNavAutoHide: false,
+                autoScaleSlider: true, 
+                autoScaleSliderWidth: 960,     
+                autoScaleSliderHeight: 350,
+                controlNavigation: 'bullets',
+                thumbsFitInViewport: false,
+                navigateByClick: false,
+                startSlideId: 0,
+                autoPlay: false,
+                transitionType:'move',
+                globalCaption: true,
+                deeplinking: {
+                  enabled: true,
+                  change: false
+                },
+                /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+                imgWidth: 1400,
+                imgHeight: 680
+              });
+            });
+    </script>
+	</head>
+	<body>
+		<div id="full-width-slider" class="royalSlider heroSlider rsMinW">
+            <!-- simple image  -->
+            
+
+            <!-- lazy loaded image -->
+
+            <!-- slide with any content -->
+            <div>
+                <div>asdasdasda</div>
+            </div>
+        </div>  
+
+	</body>
+</html>
+
