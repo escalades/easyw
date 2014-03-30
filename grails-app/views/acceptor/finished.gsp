@@ -24,7 +24,7 @@
                         <div class="b-text">
                             <h3>Собранные средства:</h3>
                             <h4>${item.collectedFunds} руб.</h4>
-                            Собранные средства были переданы  ${item.transferDate}
+                            Собранные средства были переданы  <g:formatDate format="dd-MM-yyyy" date="${item.transferDate}"/>
                         </div>
                         <div class="b-line"></div>
                         <div class="b-text">

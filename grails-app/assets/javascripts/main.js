@@ -4,15 +4,6 @@
 //= require fancybox/source/jquery.fancybox.pack
 //= require_self
 
-function onYouTubePlayerReady(playerId) {
-    ytplayer = document.getElementById("ytplayer");
-    console.log("sssssss");
-    ytplayer.addEventListener("onStateChange", "onPlayerStateChange");
-
-}
-function onPlayerStateChange(newState) {
-    alert("Player's new state: " + newState);
-}
 $(document).ready(function() {
     $(".fancybox").fancybox({
         closeBtn: true

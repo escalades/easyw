@@ -31,7 +31,8 @@ class AcceptorController {
         def acceptors = Acceptor.finished.list(
                 offset: (currentPage - 1) * perPage,
                 max: perPage,
-                sort: 'transferDate'
+                sort: 'transferDate',
+                order: "desc"
         )
 
         [acceptors: acceptors, total: total, currentPage: currentPage, perPage: perPage]

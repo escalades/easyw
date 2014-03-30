@@ -4,7 +4,7 @@
 
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?110"></script>
     <script type="text/javascript">
-    VK.init({apiId: 4276111, onlyWidgets: true});
+        VK.init({apiId: 4276111, onlyWidgets: true});
     </script>
 
 </head>
@@ -20,7 +20,7 @@
                     <div class="b-likes">
                         <div id="vk_like"></div>
                         <script type="text/javascript">
-                        VK.Widgets.Like("vk_like", {type: "mini", verb: 1, height: 20});
+                        VK.Widgets.Like("vk_like", {type: "mini", verb: 1, height: 22});
                         </script>
                     </div>
                 </div>
@@ -51,7 +51,9 @@
                     ${raw(acceptor.notes)}
                 </div>
                 <h2 class="b-headline">Рассказать историю:</h2>
-                <div class="b-likes"></div>
+                <div class="b-likes">
+
+                </div>
             </div>
             <div class="b-trigger">
                 <h1>Совершите доброе дело с Easyway</h1>
